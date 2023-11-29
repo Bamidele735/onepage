@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../../styles/";
+import styles from "../../../styles/Home.module.css";
 import RelatedGamesCarousel from "../../../components/Carousel/RelatedGamesCarousel";
 import UseEmblaCarouselLogic from "../../../components/Carousel/useEmblaCarouselLogic/useEmblaCarouselLogic";
 import { GameTypes, HomePageGameTypes } from "../../../types/sanityData";
