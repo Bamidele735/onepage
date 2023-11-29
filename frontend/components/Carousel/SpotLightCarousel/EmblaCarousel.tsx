@@ -8,7 +8,6 @@ import {
 import Image from "next/image";
 // import useImageUrl from "../../../utils/sanityImage";
 import styles from "./css/index.module.css";
-import buttonStyles from "../../../containers/Home/MobileGames/index.module.css";
 //import  from "../../Home/Spotlight/Review";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../redux/store";
@@ -122,7 +121,7 @@ const EmblaCarousel: React.FC<PropType> = () => {
           </div>
         </div>
       </div>
-      <div className={` ${buttonStyles.embla__buttons} button_container`}>
+      <div >
         <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
         <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
       </div>
