@@ -8,7 +8,7 @@ import {
 import Image from "next/image";
 // import useImageUrl from "../../../utils/sanityImage";
 import styles from "./css/index.module.css";
-import styles from "../../../styles/Home.module.css";
+// import styles from "../../../styles/Home.module.css";
 //import  from "../../Home/Spotlight/Review";
 import { useSelector } from "react-redux";
 import { RootState } from "../../../redux/store";
