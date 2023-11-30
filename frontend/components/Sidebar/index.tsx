@@ -128,7 +128,7 @@ export default function Sidebar() {
               <li>
                 <Link
                   className={`${styles.nav_link} flex items-center gap-x-3.5 py-2 my-6 px-2.5 text-sm text-slate-700 rounded-md hover:bg-gray-900  dark:text-white`}
-                  href="/allGames"
+                  href="/"
                 >
                   <svg
                     className="w-4 h-4"
@@ -147,7 +147,23 @@ export default function Sidebar() {
                       d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
                     />
                   </svg>
+                  <h4>Home</h4>
+                </Link>
+              </li>{" "}
+              <li>
+                <Link
+                  className={`${styles.nav_link} flex items-center gap-x-3.5 py-2 my-6 px-2.5 text-sm text-slate-700 rounded-md hover:bg-gray-900  dark:text-white`}
+                  href="/game"
+                >
                   <h4>Games</h4>
+                </Link>
+              </li>{" "}
+              <li>
+                <Link
+                  className={`${styles.nav_link} flex items-center gap-x-3.5 py-2 my-6 px-2.5 text-sm text-slate-700 rounded-md hover:bg-gray-900  dark:text-white`}
+                  href="/nodesale"
+                >
+                  <h4>Node Sale</h4>
                 </Link>
               </li>
             </ul>

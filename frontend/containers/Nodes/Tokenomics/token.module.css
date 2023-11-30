@@ -1,0 +1,58 @@
+.Tokenomics {
+  margin: 2em auto;
+}
+
+.Tokenomics h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+.Tokenomics h2 {
+  text-align: center;
+  margin: 1em auto;
+  width: 80%;
+  font-size: 1em;
+}
+
+.Tokenomics section img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.Tokenomics section .nodeTableImg {
+  width: 40%;
+}
+.Tokenomics section .nodeGraphPng {
+  width: 60%;
+}
+.nodeSection {
+  background-color: #212b35;
+  margin: 1em auto;
+  padding: 2em;
+  border-radius: 1em;
+}
+.Tokenomics section {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.Tokenomics section .nodeGamesPng {
+  margin-top: 2em;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .Tokenomics section {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Tokenomics section .nodeTableImg,
+  .Tokenomics section .nodeGraphPng {
+    width: 100%;
+  }
+}

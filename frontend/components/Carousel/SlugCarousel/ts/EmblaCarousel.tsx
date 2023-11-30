@@ -3,7 +3,6 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Thumb } from "./EmblaCarouselThumb";
 import useImageUrls from "../media/imageByIndex";
 import styles from "../css/index.module.css";
-import Image from "next/image";
 import {
   PrevButton,
   NextButton,

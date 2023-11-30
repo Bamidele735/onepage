@@ -3,7 +3,7 @@ import EmblaCarousel from "./EmblaCarousel";
 import { EmblaOptionsType } from "embla-carousel-react";
 import styles from "./css/index.module.css";
 import { useSelector } from "react-redux";
-import rootReducer, { RootState } from "../../../redux/store";
+import { RootState } from "../../../redux/store";
 
 const OPTIONS: EmblaOptionsType = {
   align: "start",

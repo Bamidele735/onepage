@@ -29,10 +29,9 @@
 }
 
 .navHeader nav .hs-collapse {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  padding: 1em;
 }
 
 @media screen and (max-width: 1023px) {
@@ -42,6 +41,7 @@
   .navHeader {
     display: block;
     padding: 0;
+    position: fixed;
   }
   .nav_fixed {
     position: unset;

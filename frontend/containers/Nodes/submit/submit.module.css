@@ -1,0 +1,46 @@
+.Submit {
+  margin-bottom: 2em;
+}
+.submitInputHome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.submitInput {
+  width: 100%;
+  height: 43px;
+}
+.submitInput input {
+  height: auto;
+  border: 0.5px solid white;
+}
+
+.submitBtn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-radius: 0.4em;
+  right: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitBtn button {
+  background-color: lightblue;
+  padding: 0.2em 0.5em;
+  margin: 0.2em 0.5em;
+  border-radius: 0.3em;
+}
+.submitSvg {
+  margin-left: 0.8em;
+}
+
+.connectwallet {
+  margin-top: 1em;
+  padding: 0.56em 2em;
+  border-radius: 0.6em;
+  background-color: orange;
+  font-size: 1.2em;
+}

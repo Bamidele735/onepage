@@ -80,7 +80,7 @@ html {
 
 html,
 body {
-  background-color: #000000;
+  background-color: #16092b;
   background-repeat: no-repeat !important;
   /* font-family: "Nexa", sans-serif; */
   background-size: cover !important;
@@ -136,11 +136,12 @@ a {
   margin: auto !important;
 }
 
-
-
-
-
 /* home */
+.herobanner {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
 .secuiry_bg {
   /* background-image: url(../public/images/security\ bg.jpg); */
   background-repeat: no-repeat;
@@ -148,88 +149,88 @@ a {
   border: 0;
   position: relative;
 }
-.textbtn{
+.textbtn {
   display: flex;
   justify-content: center;
   /* width: 100%; */
   /* margin-top: 110vh; */
 }
-.textbtn2{
+.textbtn2 {
   display: flex;
   justify-content: space-between;
   width: 100%;
   padding: 20px 20px;
   max-width: 1500px;
 }
-.btntext{
-  /* margin-left: 50px; */
+.btntext {
+  margin-left: 10px;
   padding: 20px;
-  /* margin-right: 50px; */
+  margin-right: 10px;
   border-radius: 5px;
   border: none;
   color: #ffffff;
   background-color: #0e71b4;
 }
-.btntext:hover{
+.btntext:hover {
   background-color: #2491da;
 }
 
 /* section2 */
-.topp{
+.topp {
   margin-top: 10px;
 }
-.section2{
+.section2 {
   display: flex;
   justify-content: center;
   padding-top: 20px;
 }
-.section2text{
+.section2text {
   display: flex;
   align-items: center;
   padding: 10px 60px;
   border-radius: 20px;
   background-color: #212b35;
 }
-.laptop{
+.laptop {
   width: 500px;
 }
-.textgame{
+.textgame {
   max-width: 800px;
 }
-.txb{
+.txb {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 600;
 }
-.txp{
+.txp {
   font-size: 20px;
 }
-.txbb{
+.txbb {
   background-color: #ea4d16;
-  padding: 10px 60px ;
+  padding: 10px 60px;
   border-radius: 5px;
   margin-top: 20px;
 }
-.txbb:hover{
+.txbb:hover {
   background-color: #c03e0f;
 }
 @media screen and (max-width: 1133px) {
   /* section2 */
-  .laptop{
+  .laptop {
     width: 400px;
   }
-  .textgame{
+  .textgame {
     max-width: 700px;
   }
-  .txb{
+  .txb {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
   }
-  .txp{
+  .txp {
     font-size: 18px;
   }
-  .section2text{
+  .section2text {
     display: flex;
     align-items: center;
     padding: 10px 60px;
@@ -237,38 +238,35 @@ a {
     border-radius: 20px;
     background-color: #212b35;
   }
-  
-
 }
 @media screen and (max-width: 983px) {
   /* section2 */
- .textbtn2{
-  text-align: center;
- }
- .btntext{
-  margin-top: 10px;
- }
-
+  .textbtn2 {
+    text-align: center;
+  }
+  .btntext {
+    margin-top: 10px;
+  }
 }
 @media screen and (max-width: 889px) {
   /* section2 */
 
-  .laptop{
+  .laptop {
     width: 350px;
   }
-  .textgame{
+  .textgame {
     max-width: 700px;
     margin: 10px 5px;
   }
-  .txb{
+  .txb {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
   }
-  .txp{
+  .txp {
     font-size: 18px;
   }
-  .section2text{
+  .section2text {
     display: flex;
     align-items: center;
     padding: 10px 60px;
@@ -276,40 +274,38 @@ a {
     border-radius: 20px;
     background-color: #212b35;
   }
-  .txbb{
+  .txbb {
     background-color: #ea4d16;
-    padding: 10px 60px ;
+    padding: 10px 60px;
     border-radius: 5px;
     margin-top: 20px;
   }
 
-.btntext{
-  margin-top: 20px;
-}
-/* .textin{
+  .btntext {
+    margin-top: 20px;
+  }
+  /* .textin{
   width: 20px;
 } */
-
-
 }
 @media screen and (max-width: 760px) {
   /* section2 */
-  .laptop{
+  .laptop {
     width: 250px;
   }
-  .textgame{
+  .textgame {
     max-width: 700px;
     margin: 10px 5px;
   }
-  .txb{
+  .txb {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
   }
-  .txp{
+  .txp {
     font-size: 17px;
   }
-  .section2text{
+  .section2text {
     display: flex;
     align-items: center;
     padding: 10px 40px;
@@ -317,50 +313,51 @@ a {
     border-radius: 20px;
     background-color: #212b35;
   }
-  .txbb{
+  .txbb {
     background-color: #ea4d16;
-    padding: 10px 60px ;
+    padding: 10px 60px;
     border-radius: 5px;
     margin-top: 20px;
   }
 }
 @media screen and (max-width: 590px) {
   /* section2 */
-  .laptop{
+  .laptop {
     width: 250px;
   }
-  .textgame{
+  .textgame {
     max-width: 700px;
     margin: 10px 5px;
     text-align: center;
   }
-  .txb{
+  .txb {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 600;
   }
-  .txp{
+  .txp {
     font-size: 17px;
   }
-  .section2text{
+  .section2text {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px 40px;
+    padding: 10px;
     margin: 1px 15px;
     border-radius: 20px;
     background-color: #212b35;
   }
-  .txbb{
+  .txbb {
     background-color: #ea4d16;
-    padding: 10px 60px ;
+    padding: 10px 60px;
     border-radius: 5px;
     margin-top: 20px;
   }
 }
 @media screen and (max-width: 450px) {
   /* section2 */
- .btntext{
-  font-size: 3vw;
- }
+  .btntext {
+    font-size: 3vw;
+  }
 }
+/* HOME END */

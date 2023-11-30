@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useState } from "react";
-import styles from "../../../styles/Home.module.css";
+import styles from "../../../containers/GamesHome/MobileGames/index.module.css";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import { flushSync } from "react-dom";
 import {

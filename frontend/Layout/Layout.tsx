@@ -11,7 +11,7 @@ interface LayoutProps {
 }
 export default function Layout({ children }: LayoutProps) {
   return (
-    <div>
+    <div className={`${styles.nav_side_bar_main}`}>
       <div className={`${styles.nav_side_bar}`}>
         <div className={` center  ${styles.nav_side_center}`}>
           <NavBar />
